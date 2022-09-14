@@ -59,3 +59,40 @@
     black
   );
 }
+
+@media (max-width: 425px) {
+    .banner_contents{
+      margin-left: 40px!important;
+    }
+    .banner_title{
+      font-size: 1.3rem!important;
+    font-weight: 800!important;
+    /* width: 40px; */
+        width: 70%!important;
+    padding-bottom: 1.3rem!important;
+    }
+    .banner{
+      height: 26vh!important;
+    }
+     .hide{
+      display: none!important;
+    }
+  }
+
+@media (max-width: 375px) {
+    .banner_contents{
+      margin-left: 40px!important;
+    }
+    .banner_title{
+      font-size: 1.3rem!important;
+    font-weight: 800!important;
+    width: 70%!important;
+    padding-bottom: 1.3rem!important;
+    }
+    .banner{
+      height: 26vh!important;
+    }
+     .hide{
+      display: none!important;
+    }
+  }

@@ -1,15 +1,23 @@
 import './App.css';
-import Row from './Row';
+import  Row  from './Row';
 import Banner from './Banner';
 import Nav from './Nav';
+import Youtube from './Youtube';
+
+
 import requests from './requests';
 
 function App() {
+
+  
+
   return (
     <div className="app">
+
+
       <Nav />
       <Banner />
-
+      <Youtube/>
       <Row title="Netflix Original" fetchUrl={requests.fetchNetflixOriginals} />
       <Row title="Trending Now " fetchUrl={requests.fetchTrending} />
       <Row title="Upcoming " fetchUrl={requests.fetchUpcoming} />
